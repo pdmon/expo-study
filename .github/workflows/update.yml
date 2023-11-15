@@ -32,4 +32,4 @@ jobs:
         run: yarn install
 
       - name: Publish update
-        run: eas update -p android --auto --profile preview
+        run: eas update -p android --profile preview
